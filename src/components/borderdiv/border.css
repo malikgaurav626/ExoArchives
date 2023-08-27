@@ -1,0 +1,26 @@
+.border-div {
+  width: 97svw;
+  height: 95svh;
+  border: 5px solid #3ec6b6;
+  box-shadow: 0px 0px 4px 0.1px #3ec6b6, inset 0px 0px 4px 0.1px #3ec6b6;
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    .border-div {
+      margin: 0;
+      height: 97svh;
+      width: 95svw;
+    }
+  }
+@media (max-width: 576px) {
+  .border-div {
+    margin: 0;
+    height: 97svh;
+    width: 95svw;
+  }
+}

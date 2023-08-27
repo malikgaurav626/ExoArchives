@@ -1,0 +1,63 @@
+@font-face {
+  font-family: strippy;
+  src: url("../fonts/Strippy-Regular.ttf");
+}
+@font-face {
+  font-family: "TG Axima Regular";
+  src: url("../fonts/TG Axima Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TG Axima Medium";
+  src: url("../fonts/TG Axima Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TG Axima Light";
+  src: url("../fonts/TG Axima Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TG Axima Heavy";
+  src: url("../fonts/TG Axima Heavy.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TG Axima Extended Regular";
+  src: url("../fonts/TG Axima Extended Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TG Axima Extended Medium";
+  src: url("../fonts/TG Axima Extended Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TG Axima Extended Light";
+  src: url("../fonts/TG Axima Extended Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TG Axima Extended Heavy";
+  src: url("../fonts/TG Axima Extended Heavy.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TG Axima Extended Bold";
+  src: url("../fonts/TG Axima Extended Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TG Axima Extended Black";
+  src: url("../fonts/TG Axima Extended Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TG Axima Bold";
+  src: url("../fonts/TG Axima Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TG Axima Black";
+  src: url("../fonts/TG Axima Black.otf") format("opentype");
+}

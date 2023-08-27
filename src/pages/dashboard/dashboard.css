@@ -1,0 +1,413 @@
+.dashboard-container {
+  opacity: 0;
+  animation: animata-fadeIn 1s linear 0s 1 forwards;
+  overflow: auto !important;
+}
+.dashboard-mesh {
+  margin: 15px;
+  z-index: 1;
+  background-color: #141d22;
+  border: 2px solid #3ec6b6;
+  box-shadow: 0px 0px 2px 0px #3ec6b6, inset 0px 0px 2px 0px #3ec6b6;
+}
+.dashboard-heading {
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  font-family: strippy;
+  letter-spacing: 3px;
+  text-shadow: 0px 0px 2px #3ec6b6;
+  border: 2px solid #3ec6b6;
+  padding-left: 15px;
+  box-shadow: 0px 0px 2px 0px #3ec6b6, inset 0px 0px 2px 0px #3ec6b6;
+}
+.dashboard-logs-container {
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 63.65svh;
+  position: relative !important;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-track {
+  background-color: #141d22;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #3ec6b6;
+}
+.date-updated {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: 'TG Axima Bold';
+  letter-spacing: 0.5px;
+  font-size: 10px;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  text-shadow: 0px 0px 1px #3ec6b6;
+  border: 2px solid #3ec6b6;
+  border-radius: 0px;
+  background-color: #3ec6b6;
+  color: #141d22;
+  text-shadow: 0px 0px 1px #141d22;
+  cursor: pointer;
+}
+
+.dashboard-heading-container {
+  min-height: 120px;
+}
+.dashboard-search-container {
+  border: 2px solid #3ec6b6;
+  box-shadow: 0px 0px 2px 0px #3ec6b6, inset 0px 0px 2px 0px #3ec6b6;
+}
+.dashboard-logs-container {
+  border: 2px solid #3ec6b6;
+  box-shadow: 0px 0px 2px 0px #3ec6b6, inset 0px 0px 2px 0px #3ec6b6;
+}
+.dashboard-search-col {
+  height: 66svh;
+}
+.nav-btn {
+  font-family: "TG Axima Regular";
+  font-weight: 500;
+  font-size: 12px;
+  text-shadow: 0px 0px 2px #3ec6b6;
+  border: 1px solid #3ec6b6;
+  display: inline-block;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.large-nav-btn {
+  font-weight: 500;
+  font-size: 20px;
+  text-shadow: 0px 0px 2px #3ec6b6;
+  border: 1px solid #3ec6b6;
+  display: inline-block;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0px 0px 0.5px 0px #3ec6b6, inset 0px 0px 0.5px 0px #3ec6b6;
+}
+.nav-btn:hover {
+  color: #141d22;
+  text-shadow: 0px 0px 2px #141d22;
+  background-color: #3ec6b6;
+}
+.large-nav-btn:hover {
+  color: #141d22;
+  text-shadow: 0px 0px 2px #141d22;
+  background-color: #3ec6b6;
+}
+.search-lookup {
+  font-family: 'TG Axima Black';
+  position: absolute;
+  top: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #3ec6b6;
+  color: #141d22;
+  text-shadow: 0px 0px 2px #141d22;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 0px 1px #3ec6b6;
+  /* padding-bottom: 5px; */
+}
+.option-item {
+  font-family: "TG Axima Regular";
+  text-shadow: 0px 0px 2px #141d22;
+  border-radius: 0px !important;
+}
+.option-item:hover {
+  background-color: #3ec6b6;
+  color: #141d22;
+  text-shadow: 0px 0px 2px #141d22;
+}
+select {
+  color: #3ec6b6;
+  font-family: "TG Axima Regular";
+  background-color: #141d22;
+  border-radius: 0px !important;
+  max-width: 250px;
+}
+select:focus {
+  outline: none;
+}
+.col-name {
+  background-color: #3ec6b6;
+  color: #141d22;
+  font-family: "TG Axima";
+  font-weight: 700;
+  font-size: 15px;
+  text-shadow: 0px 0px 1px #141d22;
+}
+.down-sort {
+  transform: rotateZ(180deg) !important;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s ease;
+  line-height: 12px;
+}
+.down-sort:hover {
+  scale: 1.1;
+  /* transform: translate(-9.5px, 3px) rotateZ(180deg) !important; */
+  transition: 0.3s ease;
+}
+.up-sort {
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s ease;
+  line-height: 12px;
+}
+.up-sort:hover {
+  scale: 1.1;
+}
+a {
+  color: #3ec6b6;
+  text-decoration: none;
+  text-shadow: 0px 0px 1px #3ec6b6;
+  font-family: "TG Axima Regular";
+}
+.data-row {
+  text-shadow: 0px 0px 1px #3ec6b6;
+  font-family: "TG Axima Regular";
+  font-size: 15px;
+}
+.planet-column {
+  border-right: 1px solid #141d22;
+}
+.planet-columns {
+  overflow: auto;
+}
+.planet-name {
+  transition: 0.3s ease;
+  padding-left: 5px !important;
+  word-break: break-all !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+.planet-name:hover {
+  scale: 1.05;
+  transition: 0.3s ease;
+}
+.dropdown-menu {
+  background-color: #3ec6b6;
+  color: #141d22;
+  text-shadow: 0px 0px 1px #141d22;
+  border-radius: 0px;
+}
+
+.dropdown-item {
+  font-family: "TG Axima Bold" !important;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  z-index: 1000 !important;
+  position: relative;
+}
+.dropdown-item:hover{
+    background-color: #141d22;
+    color: #3ec6b6 !important;
+    text-shadow: 0px 0px 0.5px #3ec6b6 !important;
+
+}
+.h-row{
+    z-index: -1;
+}
+.dropdown-toggle {
+  color: #141d22;
+  font-weight: bold;
+  font-family: "TG Axima Regular" !important;
+  text-shadow: 0px 0px 1px #141d22;
+  font-size: 15px;
+}
+.base-message{
+    font-family: 'TG Axima Regular';
+    text-shadow: 0px 0px 1px #3ec6b6;
+    /* text-shadow: none !important; */
+}
+
+
+.vaporSquad-container{
+    background-color: #3ec6b6;
+    color: #141d22;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px 0px 1px 0px #3ec6b6;
+}
+.theme-btn{
+    background-color: #141d22;
+    border: 1px solid #3ec6b6 !important;
+    box-shadow: 0px 0px 0.5px 0px #3ec6b6, inset 0px 0px 0.5px #3ec6b6;
+    border-radius: 2px;
+    /* width: 3px !important; */
+    height: 25px;
+    border: none;
+
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.theme-btn:hover{
+    background-color: #3ec6b6;
+}
+.theme-container{
+    background-color: #141d22;
+    box-shadow: inset 0px 0px 1px 0px #3ec6b6;
+    padding: 5px;
+    margin-top: 5px;
+}
+.vaporSquad{
+    font-family: strippy;
+    margin-right: 5px;
+    text-shadow: 0px 0px 0.3px #141d22 !important;
+}
+.btn-active{
+    background-color: #3ec6b6;
+}
+.navbar-toggler{
+    border-radius: 0px;
+    color: #3ec6b6;
+    background-color: #141d22;
+    text-shadow: 0px 0px 1px #3ec6b6;
+    border: 1px solid #141d22;
+    padding: 3px 10px;
+    padding-bottom: 6px;
+    border-radius: 2px;
+  }
+  .navbar-toggler:hover{
+    color: #141d22;
+    background-color: #3ec6b6;
+    text-shadow: 0px 0px 1px #141d22;
+  }
+
+.nasa-external-list{
+    color: #008cd2;
+    text-shadow: 0px 0px 1px #008cd2;
+    font-family: 'TG Axima Regular';
+}
+.nasa-external-list:hover{
+    text-decoration: underline;
+}
+.menu-btn{
+  text-shadow: 0px 0px 0.5px #3ec6b6 !important;
+  box-shadow: 0px 0px 1px #141d22 !important;
+}
+.lookup-btn{
+  padding-top: 5.5px;
+}
+
+
+
+@media (max-width: 1145px) {
+  .large-nav-btn {
+    font-size: 15px;
+    transition: 0.3s ease;
+  }
+}
+@media (max-width: 998px) {
+  select {
+    max-width: 200px;
+  }
+  .dashboard-logs-container {
+    max-height: 63.65svh;
+  }
+  .dashboard-heading {
+    /* padding-bottom: 40px; */
+    font-size: 50px;
+    /* line-height: 35px; */
+  }
+}
+@media (max-width: 768px) {
+    .dashboard-heading {
+        padding-bottom: 40px;
+        font-size: 40px;
+        line-height: 35px;
+      }
+    .dashboard-logs-container {
+        max-height: 60svh;
+    } 
+    .base-message{
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      .vaporSquad{
+        font-size: 15px;
+        letter-spacing: 1px;
+      }
+      .vaporSquad-container{
+        left: 0px;
+      }
+      .theme-btn{
+        width: 10px !important;
+      }
+}
+@media (max-width: 576px) {
+  .nav-btn {
+    font-size: 15px;
+    margin: 3px;
+  }
+  .dashboard-heading {
+    padding-bottom: 40px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  select {
+    font-family: "TG Axima";
+  }
+  .date-updated {
+    font-size: 8px;
+    margin-bottom: 0;
+    text-shadow: none;
+  }
+  .dropdown-toggle {
+    font-size: 10px;
+  }
+  .data-row {
+    font-size: 10px;
+    word-wrap: break-word;
+  }
+  .planet-name {
+    /* word-wrap: break-word !important; */
+    word-break: break-all !important;
+    justify-content: start !important;
+    display: flex !important;
+    padding-left: 5px !important;
+  }
+  .external-img {
+    width: 10px !important;
+  }
+  .planet-columns {
+    padding-left: 5px !important;
+    word-break: break-all !important;
+  }
+  .base-message{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .vaporSquad{
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .vaporSquad-container{
+    left: 0px;
+  }
+  .theme-btn{
+    width: 10px !important;
+  }
+}
+@media (max-width: 400px) {
+    .nav-btn{
+        min-width: 200px;
+    }
+    .lookup-btn{
+        min-width: fit-content !important;
+    }
+}
+
+@keyframes animata-fadeIn {
+  100% {
+    opacity: 1;
+  }
+}

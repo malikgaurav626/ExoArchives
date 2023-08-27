@@ -1,0 +1,13 @@
+.overlay-image{
+    height: 100svh;
+    width: 100svw;
+    z-index: 10000;
+    background: url('../../../assets/overlayv2.webp');
+    background-size: cover;
+    backface-visibility: visible;
+    opacity: 0.03;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}

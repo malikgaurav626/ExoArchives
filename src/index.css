@@ -1,0 +1,19 @@
+body{
+  /* background-color: #1b1b1b; */
+  background-color: #141d22;
+  color: #3ec6b6;
+  text-shadow: 0px 0px 4px #3ec6b6;
+  /* filter: hue-rotate(50deg); */
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+#root{
+  position: relative;
+  width: 100%;
+}
