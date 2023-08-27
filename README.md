@@ -1,4 +1,4 @@
-# Exo Archives - Frontend Challenge Solution
+# Exo Archives - Nasa's Exo Planet Archive
 
 ![Exo Archives](https://i.ibb.co/FVxcQgb/faviconexoarchives2.png)
 
@@ -27,17 +27,17 @@ Follow these steps to get the project up and running on your local machine:
 
 ## Screenshots
 
-![Theme 1](screenshots/theme1.png)
-*Theme 1: [Description]*
+![Noir Cyan](https://i.ibb.co/QFJ1JHw/image.png)
+*Noir Cyan: A Star Wars inspired cyan*
 
-![Theme 2](screenshots/theme2.png)
-*Theme 2: [Description]*
+![Fallout Green](https://i.ibb.co/2Kfg0mK/image.png)
+*Fallout Green: A Fallout 3 inspired green*
 
-![Theme 3](screenshots/theme3.png)
-*Theme 3: [Description]*
+![New Vagas Orange](https://i.ibb.co/6tYZdXq/image.png)
+*New Vagas Orange: A Fallout: New Vagas inspired orange*
 
-![Theme 4](screenshots/theme4.png)
-*Theme 4: [Description]*
+![Ghost Violet](https://i.ibb.co/RhNXnBr/image.png)
+*Ghost Violet: A ghost in the shell inspired violet*
 
 ## Technologies Used
 
