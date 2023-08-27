@@ -27,16 +27,23 @@ Follow these steps to get the project up and running on your local machine:
 
 ## Screenshots
 
-![Noir Cyan](https://i.ibb.co/QFJ1JHw/image.png)
+![Noir Cyan](https://i.ibb.co/Nx60SQt/image.png)
+
 *Noir Cyan: A Star Wars inspired cyan*
 
+---
 ![Fallout Green](https://i.ibb.co/2Kfg0mK/image.png)
+
 *Fallout Green: A Fallout 3 inspired green*
 
+---
 ![New Vagas Orange](https://i.ibb.co/6tYZdXq/image.png)
+
 *New Vagas Orange: A Fallout: New Vagas inspired orange*
 
+---
 ![Ghost Violet](https://i.ibb.co/RhNXnBr/image.png)
+
 *Ghost Violet: A ghost in the shell inspired violet*
 
 ## Technologies Used
