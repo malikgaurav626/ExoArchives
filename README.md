@@ -6,6 +6,8 @@
 
 Welcome to Exo Archives, This project showcases a React web app that brings together an 80s computer graphics aesthetic design, responsive layout, smooth animations, and fast response times. The app offers users a unique experience through four different themes and a variety of features.
 
+Demo ->> [Exo Archives](https://exoarchives.netlify.app)
+
 ## Features
 
 - Four Distinct Themes: Immerse yourself in a choice of four captivating themes, each with its own visual flair.
